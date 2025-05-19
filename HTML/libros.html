@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">App - Modelamiento de datos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Libros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="prestamos.html">Prestamos </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="cont-libros">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Cien años de soledad</h5>
+            <p class="card-text">Esta obra emblemática del realismo mágico narra la historia de la familia Buendía a lo
+              largo de siete generaciones en el mítico pueblo de Macondo, entrelazando lo mágico y lo cotidiano en un
+              relato profundo sobre la soledad, el poder y el tiempo.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Gabriel García Márquez</li>
+              <li class="list-group-item">1967-05-30</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">El olvido que seremos</h5>
+            <p class="card-text">Esta emotiva novela autobiográfica narra la vida y el asesinato del padre del autor, un
+              médico y activista por los derechos humanos, retratando con ternura y honestidad el amor filial, la
+              memoria y la violencia en Colombia.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Héctor Abad Faciolince</li>
+              <li class="list-group-item">2006-04-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">La casa grande</h5>
+            <p class="card-text">Con una estructura innovadora, esta novela relata la masacre de las bananeras desde
+              múltiples perspectivas, revelando el impacto psicológico, social y político de este trágico evento en la
+              historia del país.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Álvaro Cepeda Samudio</li>
+              <li class="list-group-item">1962-01-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Delirio</h5>
+            <p class="card-text">Una historia de amor, locura y violencia en el contexto de la Colombia de los años 80,
+              donde la protagonista cae en un estado de delirio que su esposo intenta descifrar, revelando una compleja
+              red de traumas personales y sociales.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Laura Restrepo</li>
+              <li class="list-group-item">2004-01-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">María</h5>
+            <p class="card-text">Considerada una de las primeras novelas románticas del continente, esta historia de
+              amor trágico entre María y Efraín se desarrolla en el Valle del Cauca, con una prosa poética y una
+              sensibilidad profundamente emocional.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Jorge Isaacs</li>
+              <li class="list-group-item">1867-05-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Los ejércitos</h5>
+            <p class="card-text">Desde la perspectiva de un anciano profesor retirado, esta novela muestra cómo un
+              pueblo colombiano es consumido por la guerra, el miedo y la desaparición, con una mirada crítica y
+              desgarradora sobre el conflicto armado.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Evelio Rosero</li>
+              <li class="list-group-item">2007-03-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">El ruido de las cosas al caer</h5>
+            <p class="card-text">A través de la vida de un profesor universitario, esta novela explora las consecuencias
+              del narcotráfico en la Colombia de los años 80 y 90, en una narrativa introspectiva sobre la memoria, el
+              destino y la violencia.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Juan Gabriel Vásquez</li>
+              <li class="list-group-item">2011-08-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">La multitud errante</h5>
+            <p class="card-text">Una intensa reflexión sobre el desplazamiento forzado en Colombia, centrada en la
+              historia de un hombre que busca a su esposa desaparecida mientras se mezcla con otros refugiados en una
+              ciudad fronteriza.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Laura Restrepo</li>
+              <li class="list-group-item">2001-01-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Rosario Tijeras</h5>
+            <p class="card-text">Ambientada en Medellín, esta novela relata la vida de Rosario, una joven sicaria
+              atrapada en el círculo de violencia del narcotráfico, el deseo y la marginación, desde la voz de un
+              narrador enamorado de ella.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Jorge Franco</li>
+              <li class="list-group-item">1999-05-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">La tejedora de coronas</h5>
+            <p class="card-text">Esta novela histórica cuenta la vida de Genoveva Alcocer, una mujer ilustrada del siglo
+              XVIII que viaja por Europa y desafía las normas de su tiempo, en una obra rica en detalles históricos y
+              literarios.</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Germán Espinosa</li>
+              <li class="list-group-item">1982-06-01</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Titulo</h5>
+            <p class="card-text">Descripción</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Autor</li>
+              <li class="list-group-item">Fecha</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="card-link">Solicitar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../Js/libros.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
